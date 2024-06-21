@@ -1,0 +1,21 @@
+{
+    "name": "ostap-mykhaylyak/invoice",
+    "description": "A simple invoice management package for CodeIgniter 4.",
+    "type": "library",
+    "require": {
+        "php": ">=7.3",
+        "codeigniter4/framework": "^4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Invoice\\": "src/"
+        }
+    },
+    "extra": {
+        "codeigniter4": {
+            "discover": [
+                "Invoice\\Config\\Invoices"
+            ]
+        }
+    }
+}
