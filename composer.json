@@ -17,5 +17,6 @@
                 "Invoice\\Config\\Invoices"
             ]
         }
-    }
+    },
+	"license": "MIT"
 }
